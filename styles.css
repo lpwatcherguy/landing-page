@@ -1,0 +1,85 @@
+.header-links{
+    display:flex;
+}
+.header{
+    display:flex;
+   justify-content: space-between;
+   padding-top: 10px;
+   
+}
+.logo{
+    font-size: 24px;
+    font-family: #f9faf8;
+}
+h1{
+    font-weight: bolder;
+}
+.top{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1F2937;
+    color: white;
+
+}
+.link1,.link2,.link3{
+    margin-left: 15px
+}
+
+.about{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom:80px
+
+    
+}
+.banner{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#button{
+    align-self: flex-start;
+    color: white;
+    background-color: #3882f6;
+    border-radius:5px ;
+}
+.info{
+    text-align: center;
+    padding: 25px
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gallery1,.gallery2,.gallery3,.gallery4{
+    text-align: center;
+    flex: 1;
+}
+.gallery img{
+    border-radius: 5%;
+    
+}
+*{
+    margin: 0;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+#endquote{
+    text-align: end;
+}
+.quote-text{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.middle {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
